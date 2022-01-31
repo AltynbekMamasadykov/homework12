@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         Triangle triangle = new Triangle();
+        
         System.out.println("Enter the first side of a triangle");
         Scanner scanner = new Scanner(System.in);
         triangle.a = scanner.nextInt();
@@ -14,6 +15,7 @@ public class Main {
         triangle.b = scanner.nextInt();
         System.out.println("Enter the third side of a triangle");
         triangle.c = scanner.nextInt();
+        
         triangle.area();
 
     }
